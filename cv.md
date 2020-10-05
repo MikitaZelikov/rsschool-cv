@@ -7,3 +7,4 @@ Primary goal - to be repurposed. Priorities - to learn an internet technology an
 1. 
 1. 
 1. Higher education. Industrial and civil construction. Civil engineer.
+1. A2 (Pre-Intermediate).
