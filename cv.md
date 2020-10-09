@@ -3,7 +3,7 @@
    * Mobile: +375(29)3588526
    * E-mail: Zelaniki@gmail.com
 1. **Brief information:** Minsk, Belarus. 32 years old. Married, have two children.
-    *Primary goal* - To get new profession for new life circumstances. *Priorities* - To learn an internet technology and foreign language, and also aspiration to develop and learn. *Strengths* - responsibility, dedication, sociability.
+    *Primary goal* - to get new profession for new life circumstances. *Priorities* - to learn an internet technology and foreign language, and also aspiration to develop and learn. *Strengths* - responsibility, dedication, sociability.
 1. **Skills:** Java Script, HTML, CSS, Git, GitHub.
 1. **Сode examples (GitHub):** @MikitaZelikov.
 1. **Experience:** Organized and managed production and economic activities during construction. 
