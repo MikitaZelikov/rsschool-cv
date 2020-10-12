@@ -1,7 +1,7 @@
 .wrapper {
     height: 842px;
     width: 595px;
-    background: url('D:\\Никита\\Для резюме\\CV Background2.png');
+    background: url('./CV\ Background2.png');
     background-size: cover;
     margin: auto;
     border-right: solid 1px #505050;
