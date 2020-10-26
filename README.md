@@ -1,2 +1,2 @@
-https://MikitaZelikov.github.io/rsschool-cv/cv
-https://MikitaZelikov.github.io/rsschool-cv/
+https://MikitaZelikov.github.io/blob/gh-pages/CV/cv
+https://MikitaZelikov.github.io/blob/gh-pages/CV/
