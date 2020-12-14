@@ -207,7 +207,7 @@ p {
     margin-top: 6.25vw;
     margin-bottom: 7.81vw;
     width: 93.75%;   
-    background-color: rgb(75, 219, 135);
+    /* background-color: rgb(75, 219, 135); */
 }
 
 .our-friends-content span {
@@ -235,7 +235,7 @@ p {
     background-color: #F1CDB3;
 }
 
-.slider-button-left div {
+.slider-button-left p {
     background-image: url('assets/images/Arrow\ \(1\).svg');
     background-size: cover;
     width: 1.09vw;
@@ -334,7 +334,7 @@ p {
     background-color: #F1CDB3;
 }
 
-.slider-button-right div {
+.slider-button-right p {
     background-image: url('assets/images/Arrow.svg');
     background-size: cover;
     width: 1.09vw;
@@ -342,9 +342,11 @@ p {
 }
 
 .get-rest {
+    grid-area: g;
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
+    margin: 0 auto;
     font-size: 1.06rem;
     line-height: 130%;
     letter-spacing: 0.06em;
@@ -356,14 +358,59 @@ p {
     color: #292929;
 }
 
-.get-rest {
-    grid-area: g;
+.get-rest:hover {
+    color: #F1CDB3;
+    background-color: #292929;
 }
 
 .help {
-    width: 100%; 
-    height: 16.09%; 
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #FFFFFF;
+}
+
+.help-content {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 4.69rem;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6.25vw;
+    margin-bottom: 7.81vw;
+    width: 93.75%;
+}
+
+.help-content span {
+    font-size: 2.1875rem;
+    text-align: center;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.logo-conteiner {
+    display: flex;
+    flex-flow: wrap;
+    width: 80.16%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-conteiner figure {
+    display: flex;
+    /* margin: 0; */
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.34vw;
+}
+
+.logo-conteiner figure figcaption {
+    font-size: 1.25rem;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
 }
 
 .donation {
