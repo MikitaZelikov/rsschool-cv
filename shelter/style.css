@@ -394,16 +394,17 @@ p {
     flex-flow: wrap;
     width: 80.16%;
     justify-content: center;
-    align-items: center;
+    row-gap: 4.3vw;
 }
 
 .logo-conteiner figure {
     display: flex;
-    /* margin: 0; */
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     row-gap: 2.34vw;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .logo-conteiner figure figcaption {
@@ -414,9 +415,86 @@ p {
 }
 
 .donation {
-    width: 100%; 
-    height: 12.22%; 
-    background-color: rgb(118, 199, 247)
+    display: flex;
+    justify-content: center; 
+    background-color: #F6F6F6;
+}
+
+.donation-content {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.34rem;
+    align-items: center;
+    
+    margin-top: 6.25vw;
+    margin-bottom: 7.81vw;
+    width: 93.75%;
+}
+
+.donation-content figure {
+    background-image: url('assets/images/donation-dog.svg');
+    width: 505px;
+    height: 261px;
+    margin-inline: 0;
+    margin: 0;
+}
+
+.donation-content article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.56vw;
+    justify-content: space-between;
+}
+
+.donation-content article span {
+    font-size: 2.1875rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation-content article h2 {
+    font-family: Georgia;
+    font-size: 0.94rem;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-block: 0;
+    font-weight: normal;
+}
+
+.donation-content article p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 150%;
+    color: #B2B2B2;
+}
+
+.donation-content article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    width: 349px;
+    height: 43px;
+    background-color: #F1CDB3;
+    border-radius: 9px;
+}
+.donation-content article div:hover {
+    background-color:  #d48d5b
+}
+
+.card {
+    background: url('assets/images/credit-card.svg');
+    width: 30px;
+    height: 23px;
+}
+.card-number {
+    background: url('assets/images/card-number.svg');
+    background-size: cover;
+    width: 274px;
+    height: 23px;
 }
 
 .footer {
