@@ -13,9 +13,8 @@ p {
 .wrapper {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
-    background-color: brown;
 }
 
 .start-screen {
@@ -100,14 +99,15 @@ p {
     flex-direction: column;
     justify-content: space-between;
     row-gap: 3.28vw;
-    /* background-color: rgb(235, 168, 69);  */
+    margin-top: 12.73vw;
+    margin-bottom: 18.98vw;
 }
 
 .not-only-heading {
     font-size: 2.75rem;
     line-height: 130%;
     color: #FFFFFF;
-    margin: 0px;
+    margin: 0;
 }
 
 .not-only p {
@@ -120,7 +120,6 @@ p {
     background: #F1CDB3;
     border-radius: 100px;
     border: none;
-    /* outline: none; */
 }
 
 
@@ -226,9 +225,9 @@ p {
     justify-content: center;
     border: 2px solid #F1CDB3; 
     background-color: #F6F6F6;
-    border-radius: 7.81vw;
-    width: 4.06vw;
-    height: 4.06vw;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
 }
 
 .slider-button-left:hover {
@@ -238,8 +237,8 @@ p {
 .slider-button-left p {
     background-image: url('assets/images/Arrow\ \(1\).svg');
     background-size: cover;
-    width: 1.09vw;
-    height: 0.47vw;
+    width: 14px;
+    height: 6px;
 }
 
 .pets-conteiner-1 {
@@ -307,9 +306,9 @@ p {
     letter-spacing: 0.06em;
     border: 2px solid #F1CDB3;
     background: #FAFAFA;
-    width: 14.61vw;
-    height: 4.06vw;
-    border-radius: 7.81vw;
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
     color: #292929;
     margin-bottom: 2.34vw;
 }
@@ -325,9 +324,9 @@ p {
     justify-content: center;
     border: 2px solid #F1CDB3; 
     background-color: #F6F6F6;
-    border-radius: 7.81vw;
-    width: 4.06vw;
-    height: 4.06vw;
+    border-radius: 100px;
+    width: 52px;
+    height: 52px;
 }
 
 .slider-button-right:hover {
@@ -337,8 +336,8 @@ p {
 .slider-button-right p {
     background-image: url('assets/images/Arrow.svg');
     background-size: cover;
-    width: 1.09vw;
-    height: 0.47vw;
+    width: 14px;
+    height: 6px;
 }
 
 .get-rest {
@@ -352,15 +351,15 @@ p {
     letter-spacing: 0.06em;
     background-color: #F1CDB3;
     border: none;
-    width: 20.39vw;
-    height: 4.06vw;
-    border-radius: 7.81vw;
+    width: 261px;
+    height: 52px;
+    border-radius: 100px;
     color: #292929;
 }
 
 .get-rest:hover {
-    color: #F1CDB3;
-    background-color: #292929;
+    border: 2px solid #F1CDB3;
+    background-color: #FFFFFF;
 }
 
 .help {
@@ -480,9 +479,10 @@ p {
     height: 43px;
     background-color: #F1CDB3;
     border-radius: 9px;
+    border: 2px solid #F1CDB3;
 }
 .donation-content article div:hover {
-    background-color:  #d48d5b
+    background-color:  #F6F6F6;
 }
 
 .card {
@@ -491,14 +491,75 @@ p {
     height: 23px;
 }
 .card-number {
-    background: url('assets/images/card-number.svg');
-    background-size: cover;
-    width: 274px;
-    height: 23px;
+    font-size: 1.25vw;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-decoration: none;
 }
 
 .footer {
-    width: 100%; 
-    height: 9.21%; 
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    column-gap: 12.5vw;
+    width: 93.75%;
+    margin-top: 3.125vw;
+}
+
+.footer-content article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1.25vw;
+    margin-bottom: 4.69vw;
+}
+
+.footer-content article span {
+    font-size: 2.19rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.footer-content article div {
+    display: flex;
+    column-gap: 1.56vw;
+}
+
+.footer-content figure {
+    background: url('assets/images/footer-puppy.svg');
+    width: 300px;
+    height: 310px;
+    margin-inline: 0;
+    margin-block: 0;
+}
+
+.email-logo {
+    background: url('assets/images/mail.svg');
+    width: 40px;
+    height: 26px;
+}
+.text {
+    font-size: 1.25rem;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+}
+.phone-logo {
+    background: url('assets/images/phone.svg');
+    width: 40px;
+    height: 32px;
+}
+
+.checkpoint {
+    background: url('assets/images/pin.svg');
+    width: 22px;
+    height: 32px;
 }
